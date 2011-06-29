@@ -1,3 +1,12 @@
 Twitter Noise Reduction is a twitter bot that selectively retweets content from another twitter account.
 
 For an example, see http://twitter.com/rabois_nosquare
+
+Assumes the following environment variables
+TWITTER_BOT_USERNAME
+TWITTER_BOT_PASSWORD
+TWITTER_BOT_OAUTH_TOKEN
+TWITTER_BOT_OAUTH_TOKEN_SECRET
+TWITTER_BOT_CONSUMER_TOKEN
+TWITTER_BOT_CONSUMER_SECRET
+TWITTER_BOT_REPLICATES (screen name target twitter user)
