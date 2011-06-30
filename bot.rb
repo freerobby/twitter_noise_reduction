@@ -4,9 +4,7 @@ require "bundler/setup"
 require "tweetstream"
 require "twitter"
 
-FILTER_PHRASES = [
-  'square'
-]
+FILTER_PHRASES = ENV['TWITTER_BOT_FILTER_PHRASES'].downcase.split(";").map{|x| x.strip}
 
 Twitter.configure do |config|
   config.consumer_key = ENV['TWITTER_BOT_CONSUMER_KEY']
